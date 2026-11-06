@@ -2539,12 +2539,14 @@ MonoBehaviour:
           - rid: 2613052204255019595
           - rid: 2613052204255019615
           - rid: 2613052204255019905
+          - rid: 2613052204255019952
           Expanded: 1
           _editorOnlyList:
             _items:
             - rid: 2613052204255019596
             - rid: 2613052204255019616
             - rid: 2613052204255019906
+            - rid: 2613052204255019953
             _locked: 0
         _transitions:
         - _name: FINISHED
@@ -2695,6 +2697,128 @@ MonoBehaviour:
         _action:
           rid: 2613052204255019905
         _fullTypeName: HutongGames.PlayMaker.Actions.TMP_TextSetText__Integer
+    - rid: 2613052204255019952
+      type: {class: TweenTransformScale, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        IsEnabled: 1
+        UpdateMode: 2051
+        _expanded: 1
+        _customName: 
+        ShowDebugInfo: 0
+        Easing:
+          rid: 2613052206599635228
+        TweenUpdate:
+          rid: 2613052206599635203
+        Loop:
+          rid: -2
+        Events:
+          rid: -2
+        _direction: 0
+        _value:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {x: 1.3, y: 1.3, z: 1.3}
+          _isConstant: 1
+        _relative:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _transform:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: {fileID: 580936662}
+          _isConstant: 1
+    - rid: 2613052204255019953
+      type: {class: ActionItem, ns: HutongGames.PlayMaker, asm: PlayMaker.Runtime}
+      data:
+        _action:
+          rid: 2613052204255019952
+        _fullTypeName: HutongGames.PlayMaker.Actions.TweenTransformScale
+    - rid: 2613052206599635203
+      type: {class: TimeBasedTweenUpdateBlock, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        Action:
+          rid: 2613052204255019952
+        Enabled: 0
+        StartDelay:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        UseRealtime:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 0
+          _isConstant: 1
+        _getProgress:
+          _variable:
+            rid: -2
+          _isWriteOnly: 1
+        Duration:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value: 1
+          _isConstant: 1
+    - rid: 2613052206599635228
+      type: {class: CustomCurveEasingBlock, ns: HutongGames.PlayMaker.Actions, asm: HutongGames.PlayMaker}
+      data:
+        Action:
+          rid: 2613052204255019952
+        Enabled: 0
+        CustomCurve:
+          _variable:
+            rid: -2
+          _isWriteOnly: 0
+          _value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.1364941
+              value: 0.37322927
+              inSlope: 3.261555
+              outSlope: 3.261555
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.26380837
+              value: 0.7289743
+              inSlope: 2.401878
+              outSlope: 2.401878
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.99841267
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 0
+            m_RotationOrder: 4
+          _isConstant: 1
 --- !u!1001 &1316298518
 PrefabInstance:
   m_ObjectHideFlags: 0
