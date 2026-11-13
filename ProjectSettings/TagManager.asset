@@ -7,6 +7,7 @@ TagManager:
   - Coin
   - Goal
   - Checkpoint
+  - Ball
   layers:
   - Default
   - TransparentFX
