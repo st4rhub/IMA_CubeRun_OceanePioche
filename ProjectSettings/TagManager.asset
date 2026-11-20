@@ -9,6 +9,7 @@ TagManager:
   - Checkpoint
   - Ball
   - Hazard
+  - Explosive hazard
   layers:
   - Default
   - TransparentFX
