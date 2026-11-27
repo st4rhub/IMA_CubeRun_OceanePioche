@@ -173,5 +173,77 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/IMA_Character/Stations/Station_21_End_screen.unity
     guid: 9e5a095ab57a25e4788dce2543261092
+  - enabled: 1
+    path: Assets/IMA_Character/Stations/Station_22_Ragdoll.unity
+    guid: a75dc0d6678ce9d4ab62ada1da4d9962
+  - enabled: 1
+    path: Assets/IMA_Game/Template/Game_Title.unity
+    guid: 0a408a1de9c99a74891965d9c377078e
+  - enabled: 1
+    path: Assets/IMA_Game/Template/Game_Level.unity
+    guid: 01cbb01352197224888785f8fb80f816
+  - enabled: 1
+    path: Assets/IMA_Game/Template/Game_Win.unity
+    guid: e2d94f2742dd5984986e7c87a3e6815a
+  - enabled: 1
+    path: Assets/IMA_Game/Template/Game_Lose.unity
+    guid: 0f8a9f032b1d01846b0a97dfbf227055
+  - enabled: 1
+    path: Assets/IMA_Game/Example/Castle_Title.unity
+    guid: 7b31699e3ffcc3f4c99327d89e0c040e
+  - enabled: 1
+    path: Assets/IMA_Game/Example/Castle_Level.unity
+    guid: 57f0c70062189734c80a563534b891cf
+  - enabled: 1
+    path: Assets/IMA_Game/Example/Castle_Win.unity
+    guid: ada0dc555c49a0948af9f37e48ecffe6
+  - enabled: 1
+    path: Assets/IMA_Game/Example/Castle_Lose.unity
+    guid: b315faf1c4f9bdb438aca85af0aa8bae
+  - enabled: 1
+    path: Assets/IMA_Game/Example/City_Title.unity
+    guid: 0174d2c58db4d7445ab214aa88a5a7d9
+  - enabled: 1
+    path: Assets/IMA_Game/Example/City_Level.unity
+    guid: c9177da1153d25943962cdc58d2e3b0a
+  - enabled: 1
+    path: Assets/IMA_Game/Example/City_Win.unity
+    guid: 2e927f1c52b17f44bbe36dc0039461d0
+  - enabled: 1
+    path: Assets/IMA_Game/Example/City_Lose.unity
+    guid: 7e998b1685bd20144a8be5cdcc33be05
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_01_Your_character.unity
+    guid: 789ef0f49d980514b94bf7ea829517a1
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_02_Someone_to_talk_to.unity
+    guid: 15699dd505907a644aac07631ac312b8
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_03_Someone_who_walks.unity
+    guid: db6b3bc680fc56849afeecf7e3834c3a
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_04_Someone_who_chases.unity
+    guid: 550d8157c29f9ea4e86946c157dbdc08
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_05_Someone_with_a_task.unity
+    guid: ad1324ab80b736b4aa703ea0fbc3276f
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_06_Someone_who_dances.unity
+    guid: be1a3cbae1aac4c41af603fcf1a47be3
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_07_A_key_in_your_pocket.unity
+    guid: af67d448403dd3a48802695e18d4d876
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_08_A_talk_with_a_choice.unity
+    guid: 2835177701ce1524682bac6a4258c725
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_09_Weather_in_a_zone.unity
+    guid: f30fe3c40a61442448bec8a560017d43
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_10_A_leaderboard.unity
+    guid: d79d6917c7f5d1b439f9b285f8e3da2c
+  - enabled: 1
+    path: Assets/IMA_Game/Stations/Game_11_A_car_to_drive.unity
+    guid: d9bf9f3a1c6d1574c82502a6dd7d4441
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
